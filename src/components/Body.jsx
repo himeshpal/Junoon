@@ -10,7 +10,7 @@ const Body = () => {
       }}
     >
       <div className="text-center pb-7 ">
-        <h1 className="font-bold  text-[4.9rem] text-white">
+        <h1 className="font-bold  text-[4.9rem] text-stone-100">
           Each <span className="text-orange-500"> one, </span> Teach{" "}
           <span className="text-orange-500"> one</span>
         </h1>
