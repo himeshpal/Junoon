@@ -1,46 +1,99 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/autoplay";
+
+const testimonials = [
+  {
+    quote:
+      "Use this free testimonial block that features a header, a description, and quotes arranged in a grid layout. It includes logos along with the names and job titles of the people.",
+    author: "Vinod Thapa",
+    title: "Entrepreneur",
+    image: "founder.jpg",
+    logo: "yiicon.png",
+  },
+  {
+    quote:
+      "Use this free testimonial block that features a header, a description, and quotes arranged in a grid layout. It includes logos along with the names and job titles of the people.",
+    author: "Vinod Thapa",
+    title: "Entrepreneur",
+    image: "founder.jpg",
+    logo: "yiicon.png",
+  },
+  {
+    quote:
+      "Use this free testimonial block that features a header, a description, and quotes arranged in a grid layout. It includes logos along with the names and job titles of the people.",
+    author: "Vinod Thapa",
+    title: "Entrepreneur",
+    image: "founder.jpg",
+    logo: "yiicon.png",
+  },
+  {
+    quote:
+      "Use this free testimonial block that features a header, a description, and quotes arranged in a grid layout. It includes logos along with the names and job titles of the people.",
+    author: "Vinod Thapa",
+    title: "Entrepreneur",
+    image: "founder.jpg",
+    logo: "yiicon.png",
+  },
+  // Add more testimonials here if needed
+];
 
 const Testimonials = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-        <figure className="max-w-screen-md mx-auto">
-          <svg
-            className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600"
-            viewBox="0 0 24 27"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-              fill="currentColor"
-            />
-          </svg>
-          <blockquote>
-            <p className="text-2xl font-medium text-black dark:text-white">
-              "Flowbite is just awesome. It contains tons of predesigned
-              components and pages starting from login screen to complex
-              dashboard. Perfect choice for your next SaaS application."
-            </p>
-          </blockquote>
-          <figcaption className="flex items-center justify-center mt-6 space-x-3">
-            <img
-              className="w-6 h-6 rounded-full"
-              src="founder.png"
-              alt="profile picture"
-            />
-            <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-              <div className="pr-3 font-medium text-gray-900 dark:text-white">
-                Micheal Gough
-              </div>
-              <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                CEO at Google
-              </div>
-            </div>
-          </figcaption>
-        </figure>
+    <div className="bg-neutral-950 py-10">
+      <div className="text-center text-5xl font-bold text-white pt-2 pb-12 relative z-10">
+        <h1>
+          <span className="text-orange-400 font-bold text-5xl relative bottom-4 ">
+            +
+          </span>
+          Our Testimonials
+        </h1>
+        <div className="mx-auto mt-6 h-0.5 w-20 bg-orange-700"></div>
       </div>
-    </section>
+      <div className="bg-neutral-950 py-24 px-10">
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={30}
+          slidesPerView={1}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+            },
+          }}
+        >
+          {testimonials.map((testimonial, index) => (
+            <SwiperSlide key={index}>
+              <div className="max-w-3xl bg-neutral-800 rounded-lg shadow-lg p-8">
+                <img
+                  className="w-30 h-14"
+                  src={testimonial.logo}
+                  alt="Company logo"
+                />
+                <blockquote className="text-xl text-white mb-6 pl-7 text-justify">
+                  {testimonial.quote}
+                </blockquote>
+                <div className="flex justify-center items-center">
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.author}
+                    className="w-12 h-12 rounded-full mr-4"
+                  />
+                  <div>
+                    <p className="font-bold text-white">{testimonial.author}</p>
+                    <p className="text-white">{testimonial.title}</p>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
   );
 };
 

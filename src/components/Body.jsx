@@ -1,4 +1,5 @@
 import Button from "../layouts/Button";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -21,7 +22,10 @@ const Body = () => {
         </p>
       </div>
       <div className="flex space-x-20 pt-4">
-        <Button title="Donate Now"></Button>
+        <Link to="/donate">
+          {" "}
+          <Button title="Donate Now"></Button>{" "}
+        </Link>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScgIkCvfYGbaezvGF3Glk60x7bcCU0Y_iR_len_2X01FhZLmQ/viewform"
           target="_blank"

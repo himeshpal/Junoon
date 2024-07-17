@@ -1,12 +1,12 @@
 const Problem = () => {
   return (
-    <div className="bg-black pt-20">
-      <h1 className="text-yellow-400 font-bold text-center text-6xl pb-10">
-        The Problem
+    <div className="bg-black pt-10">
+      <h1 className="text-yellow-400 font-bold text-center text-6xl font-abc pb-10">
+        THE PROBLEM
       </h1>
       <div className="py-10 pl-20 ml-10 text-white flex px-20  mr-20 ">
         <div className=" space-y-2 text-justify pr-10 mr-20 ">
-          <h1 className="font-bold text-lg text-orange-500">
+          <h1 className="font-bold font-abc text-lg text-orange-500">
             The Harsh Reality of Deprivation
           </h1>
           <p>
@@ -16,7 +16,7 @@ const Problem = () => {
             the burdens of familial responsibilities, acting as both
             breadwinners and caretakers.
           </p>
-          <h1 className="font-bold text-lg text-orange-500">
+          <h1 className="font-bold text-lg text-orange-500 font-abc">
             Strenuous Labor and Social Stigma
           </h1>
           <p>
@@ -26,7 +26,7 @@ const Problem = () => {
             ostracization, severely impacting their mental well-being and
             overall development.
           </p>
-          <h1 className="font-bold text-lg text-orange-500">
+          <h1 className="font-bold text-lg text-orange-500 font-abc">
             Living in Dangerous Conditions
           </h1>
           <p>
@@ -36,7 +36,7 @@ const Problem = () => {
             remains a distant dream, as they are pushed to the margins of
             society.
           </p>
-          <h1 className="font-bold text-lg text-orange-500">
+          <h1 className="font-bold text-lg text-orange-500 font-abc">
             The Need for Urgent Intervention
           </h1>
           <p>

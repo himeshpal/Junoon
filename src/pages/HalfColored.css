@@ -1,0 +1,14 @@
+.half-colored {
+  display: inline-block;
+  position: relative;
+}
+
+.half-colored::before {
+  content: attr(data-content);
+  color: orange; /* Change this color as needed */
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  width: 50%;
+  clip: rect(0, 50%, 100%, 0);
+}

@@ -1,6 +1,6 @@
 const Aboutus = () => {
   return (
-    <div className="bg-black ">
+    <div className="bg-black pb-10 ">
       <div
         className="min-h-[30vh]  justify-center flex flex-col  bg-cover bg-center bg-no-repeat"
         style={{

@@ -1,14 +1,17 @@
 import Aboutus from "../components/Aboutus.jsx";
 import Problem from "../components/Problem.jsx";
 import Team from "../components/Team.jsx";
+import Program from "../components/Program.jsx";
 
 const About = () => {
   return (
     <>
       <Aboutus />
-      <div className="bg-gray-700 h-2 w-full "></div>
+      <div className="bg-gray-700 h-1.5 w-full  "></div>
       <Problem />
-      <div className="bg-gray-700 h-2 w-full "></div>
+      <div className="bg-gray-700 h-1.5 w-full  "></div>
+      <Program />
+      <div className="bg-gray-700 h-1.5 w-full "></div>
       <Team />
     </>
   );

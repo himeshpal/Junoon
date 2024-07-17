@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      abc: ["Rubik", "sans-serif"],
+      cba: ["Style Script", "cursive"],
+    },
   },
   plugins: [],
 };
