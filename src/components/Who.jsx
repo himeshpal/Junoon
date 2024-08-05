@@ -17,19 +17,11 @@ const Who = () => {
       </div>
       <div className="text-white text-lg text-justify space-y-4 pl-12 pr-40">
         <p>
-          It because, my believe, but very - its a condition of education,
-          learning, what is learning, intertainment, internet, and the online
-          industry, is making people better that change there lives with a very
-          understanding and strongly, i believe that, that damage don’t from the
-          people, its a stand and a chance, we all can open in understanding
-          trying to bring back, more confidence, actual challenge data.
-        </p>
-        <p>
-          Every child deserves for to tide away from their past, and dream, they
-          have the power to make their future with dream, stop the bullying of a
-          represent of adult. The time is coming, learning, is really help them
-          to understand the information in engaging, and help children will
-          stand up for their right with comprehend - what mean understanding.
+          Established in 2018, Junoon Foundation is a dedicated non-profit
+          organisation committed to addressing the educational and essential
+          support needs of 150 homeless children in the Borivali and Kandivali
+          areas of Mumbai. Our mission is to provide these children with the
+          opportunities they need to build a brighter future
         </p>
 
         {/* <Link to="/about" spy={true} smooth={true} duration={500}>

@@ -29,7 +29,7 @@ const Blogpost = () => {
             className="flex gap-5 p-4 bg-neutral-900 rounded-2xl shadow-lg yellow-shadow relative"
           >
             <img
-              src="http://localhost:1337/uploads/small_Drawing_38da83989b.jpg"
+              src={`http://localhost:1337${blog.attributes.Coverimage.data.attributes.formats.small.url}`}
               alt="coverimage"
               className="rounded-2xl object-cover w-80 h-64"
             />

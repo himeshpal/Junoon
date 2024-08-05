@@ -4,9 +4,15 @@ import Teamcard from "../layouts/Teamcard";
 const Teams = () => {
   return (
     <div className="bg-black py-14">
-      <h1 className="text-yellow-400 font-abc font-bold text-center text-6xl pb-10 mb-5">
-        MEET THE TEAM
-      </h1>
+      <div className="text-center text-6xl font-bold text-white pt-2 pb-14">
+        <h1>
+          <span className="text-orange-400 font-bold text-6xl relative bottom-4">
+            +
+          </span>
+          MEET THE TEAM
+        </h1>
+        <div className="mx-auto mt-6 h-0.5 w-32 bg-orange-700"></div>
+      </div>
       <div className="flex flex-wrap gap-10 pl-10 ml-5 py-10  bg-black">
         <Teamcard
           src="./founder.jpg"

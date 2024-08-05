@@ -17,11 +17,14 @@ const Why = () => {
           <div className="relative h-full w-full rounded-xl    ">
             <div className="flex min-h-full flex-col items-centre justify-center">
               <p className="text-white text-center">
-                The Teamcard component creates a card that flips to reveal
-                additional information when hovered over. The front side
-                displays an image, and the back side displays text information,
-                all styled using Tailwind CSS classes. The flip effect is
-                achieved using CSS 3D transforms and transitions
+                Many children, often seen begging or selling goods at railway
+                stations and traffic signals, face immense struggles and
+                challenges, missing out on their fundamental right to education.
+                We aim to introduce education and learning into their lives,
+                equipping them to become school-ready and opening doors to
+                better opportunities in their future. Additionally, we address
+                their nutritional and healthcare needs to ensure their overall
+                well-being.
               </p>
             </div>
           </div>

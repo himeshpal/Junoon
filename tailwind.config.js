@@ -6,6 +6,7 @@ export default {
     fontFamily: {
       abc: ["Rubik", "sans-serif"],
       cba: ["Style Script", "cursive"],
+      aaa: ["DynaPuff", "system-ui"],
     },
   },
   plugins: [],

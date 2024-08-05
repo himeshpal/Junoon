@@ -4,10 +4,14 @@ import Card from "../layouts/card";
 const Program = () => {
   return (
     <div className="py-10  bg-black">
-      <div className="text-center font-abc text-5xl font-bold text-white pt-2 pb-14">
-        <h1 className="text-yellow-400 font-bold text-center text-6xl font-abc">
+      <div className="text-center text-6xl font-bold text-white pt-2 pb-14">
+        <h1>
+          <span className="text-orange-400 font-bold text-6xl relative bottom-4">
+            +
+          </span>
           OUR PROGRAMS
         </h1>
+        <div className="mx-auto mt-6 h-0.5 w-32 bg-orange-700"></div>
       </div>
       <div className="text-center text-white px-40 text-lg pb-5">
         <p>

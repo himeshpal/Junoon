@@ -15,16 +15,11 @@ const Whaat = () => {
       </div>
       <div className="text-center text-white px-40 text-lg pb-5">
         <p>
-          In the early 16th century, northern India, then under mainly Muslim
-          rulers, fell again to the superior mobility and firepower of a new
-          generation of Central Asian warriors. The resulting Mughal Empire did
-          not stamp out the local societies it came to rule. Instead, it
-          balanced and pacified them through new administrative practices and
-          diverse and inclusive ruling elites, leading to more systematic,
-          centralised, and uniform rule. Eschewing tribal bonds and Islamic
-          identity, especially under Akbar, the Mughals united their far-flung
-          realms through loyalty, expressed through a Persianised culture, to an
-          emperor who had near-divine status.
+          Currently, we conduct daily classes at four centres: Kandivali
+          Skywalk, Borivali, Saidham, and Magathane. Our plan is to extend our
+          reach to an additional 100 students by the end of this year, further
+          expanding our impact and helping more children achieve their
+          potential.
         </p>
       </div>
       <div className="flex justify-center space-x-20">
@@ -38,14 +33,14 @@ const Whaat = () => {
         <Card
           title="HEALTH"
           des="Blah blah Blah blah Blah blah Blah blah"
-          src="problem.png"
+          src="https://res.cloudinary.com/de5psimvg/image/upload/v1720502528/Screenshot_2024-07-08_224847_toazdt.png"
           link="/work/health-groceries#top"
           bgColor="bg-black"
         />
         <Card
           title="GROCERY"
           des="Blah blah Blah blah Blah blah Blah blah"
-          src="problem.png"
+          src="https://res.cloudinary.com/de5psimvg/image/upload/v1720506663/Screenshot_2024-07-09_115548_tonqjv.png"
           link="/work/health-groceries#top"
           bgColor="bg-black"
         />

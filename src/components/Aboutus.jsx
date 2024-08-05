@@ -1,16 +1,30 @@
+import { motion } from "framer-motion";
+
 const Aboutus = () => {
   return (
     <div className="bg-black pb-10 ">
       <div
-        className="min-h-[30vh]  justify-center flex flex-col  bg-cover bg-center bg-no-repeat"
+        className="min-h-[80vh] bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(./images.jpg)",
+          backgroundImage: "url(./images.png)",
         }}
       >
-        <h1 className="font-bold pl-20 ml-20 text-6xl text-white ">
-          Welcome to <span className="text-orange-500"> Junoon </span>{" "}
-          Foundation{" "}
-        </h1>
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="font-extrabold pt-32 pl-10 ml-20 text-[5.9rem] text-white "
+        >
+          Welcome to
+        </motion.h1>
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="font-extrabold pl-10 ml-20 text-[5.9rem] text-white "
+        >
+          <span className="text-orange-500"> Junoon </span> Foundation{" "}
+        </motion.h1>
       </div>
       <div className="pt-20 text-white font-['Roboto',_san-serif] text-start text-xl px-20 mx-20 font-light ">
         <p className="pb-7">
@@ -73,4 +87,5 @@ const Aboutus = () => {
     </div>
   );
 };
+
 export default Aboutus;

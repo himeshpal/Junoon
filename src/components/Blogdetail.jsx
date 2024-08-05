@@ -106,7 +106,7 @@ export default function ReviewDetails() {
           </div>
 
           <img
-            src="http://localhost:1337/uploads/medium_Drawing_38da83989b.jpg"
+            src={`http://localhost:1337${data.data.attributes.Coverimage.data.attributes.formats.medium.url}`}
             alt={title}
             className="h-[520px] w-[760px] pr-10 pt-10 "
           />
@@ -115,6 +115,7 @@ export default function ReviewDetails() {
           <div className="w-3/4 mx-auto border-t-2 border-yellow-400" />
           <p className="mt-4 px-36 py-20 text-2xl font-light text-justify">
             {data.data.attributes.Description}
+            {/* data.data.attributes.Content[0].children[1].url */}
           </p>
         </div>
       </div>

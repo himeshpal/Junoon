@@ -1,9 +1,15 @@
 const Problem = () => {
   return (
     <div className="bg-black pt-10">
-      <h1 className="text-yellow-400 font-bold text-center text-6xl font-abc pb-10">
-        THE PROBLEM
-      </h1>
+      <div className="text-center text-6xl font-bold text-white pt-2 pb-14">
+        <h1>
+          <span className="text-orange-400 font-bold text-6xl relative bottom-4">
+            +
+          </span>
+          THE PROBLEM
+        </h1>
+        <div className="mx-auto mt-6 h-0.5 w-32 bg-orange-700"></div>
+      </div>
       <div className="py-10 pl-20 ml-10 text-white flex px-20  mr-20 ">
         <div className=" space-y-2 text-justify pr-10 mr-20 ">
           <h1 className="font-bold font-abc text-lg text-orange-500">

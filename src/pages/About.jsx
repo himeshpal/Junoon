@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <Aboutus />
-      <div className="bg-gray-700 h-1.5 w-full  "></div>
+      <div className="bg-gray-700 h-1.5 w-full"></div>
       <Problem />
       <div className="bg-gray-700 h-1.5 w-full  "></div>
       <Program />
