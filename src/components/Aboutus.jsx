@@ -6,7 +6,8 @@ const Aboutus = () => {
       <div
         className="min-h-[80vh] bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(./images.png)",
+          backgroundImage:
+            "url(https://res.cloudinary.com/de5psimvg/image/upload/v1723726525/images_ufnk9l.png)",
         }}
       >
         <motion.h1
