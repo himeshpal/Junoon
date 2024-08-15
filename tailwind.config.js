@@ -2,11 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
-    fontFamily: {
-      abc: ["Rubik", "sans-serif"],
-      cba: ["Style Script", "cursive"],
-      aaa: ["DynaPuff", "system-ui"],
+    extend: {
+      screens: {
+        laptop: "1024px",
+      },
+      fontFamily: {
+        abc: ["Rubik", "sans-serif"],
+        cba: ["Style Script", "cursive"],
+        aaa: ["DynaPuff", "system-ui"],
+      },
     },
   },
   plugins: [],

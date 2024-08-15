@@ -10,3 +10,9 @@ html {
   padding: 0;
   background-color: #171717; /* Same as bg-neutral-950 */
 }
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem; /* Adjust padding as needed */
+}
