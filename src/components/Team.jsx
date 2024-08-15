@@ -16,53 +16,53 @@ const Teams = () => {
       <div className="flex flex-wrap gap-10 pl-10 ml-5 py-10  bg-black">
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
       </div>
       <div className="flex flex-wrap gap-10 pl-10 ml-5 py-5 my-5  bg-black">
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
         <Teamcard
           src="./founder.jpg"
-          name="Himesh Pal"
+          name="Haimanti Sen"
           role="Founder"
-          line="Homelander was fuckin right"
+          line="Team description"
         />
       </div>
     </div>

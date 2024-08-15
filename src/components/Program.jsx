@@ -13,39 +13,34 @@ const Program = () => {
         </h1>
         <div className="mx-auto mt-6 h-0.5 w-32 bg-orange-700"></div>
       </div>
-      <div className="text-center text-white px-40 text-lg pb-5">
+      <div className=" text-white text-justify font-sans text-[2rem] text-xl font-semibold  px-40 pb-12">
         <p>
-          In the early 16th century, northern India, then under mainly Muslim
-          rulers, fell again to the superior mobility and firepower of a new
-          generation of Central Asian warriors. The resulting Mughal Empire did
-          not stamp out the local societies it came to rule. Instead, it
-          balanced and pacified them through new administrative practices and
-          diverse and inclusive ruling elites, leading to more systematic,
-          centralised, and uniform rule. Eschewing tribal bonds and Islamic
-          identity, especially under Akbar, the Mughals united their far-flung
-          realms through loyalty, expressed through a Persianised culture, to an
-          emperor who had near-divine status.
+          Currently, we conduct daily classes at four centers: Kandivali
+          Skywalk, Borivali, Saidham, and Magathane. Our goal is to expand our
+          reach to an additional 100 students by the end of this year, further
+          increasing our impact and empowering more children to realize their
+          full potential. Our Programs include
         </p>
       </div>
       <div className="flex justify-center space-x-20">
         <Card
           title="EDUCATION"
-          des="Blah blah Blah blah Blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah"
+          des="Education is not merely a means to acquire knowledge, it is the "
           src="problem.png"
           link="/work/education#top"
           bgColor="bg-neutral-950"
         />
         <Card
           title="HEALTH"
-          des="Blah blah Blah blah Blah blah Blah blah"
-          src="problem.png"
+          des="Imagine a world where every child gets to skip hop through "
+          src="https://res.cloudinary.com/de5psimvg/image/upload/v1720502528/Screenshot_2024-07-08_224847_toazdt.png"
           link="/work/health-groceries#top"
           bgColor="bg-neutral-950"
         />
         <Card
           title="GROCERY"
-          des="Blah blah Blah blah Blah blah Blah blah"
-          src="problem.png"
+          des="Trust is a very important factor connected to a child’s education"
+          src="https://res.cloudinary.com/de5psimvg/image/upload/v1720506663/Screenshot_2024-07-09_115548_tonqjv.png"
           link="/work/health-groceries#top"
           bgColor="bg-neutral-950"
         />

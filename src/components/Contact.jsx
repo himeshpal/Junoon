@@ -132,9 +132,27 @@ const Contact = () => {
       </div>
       <div className="bg-orange-400 flex justify-around items-center">
         <div className="flex py-4 space-x-6">
-          <TbBrandFacebook className="hover:text-black text-[1.5rem] text-white" />
-          <IoLogoInstagram className="hover:text-black text-[1.5rem] text-white" />
-          <SlSocialLinkedin className="hover:text-black text-[1.5rem] text-white" />
+          <a
+            href="https://www.facebook.com/Humhaijunoon/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <TbBrandFacebook className="hover:text-black text-[1.5rem] text-white" />
+          </a>
+          <a
+            href="https://www.instagram.com/humhaijunoon/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoLogoInstagram className="hover:text-black text-[1.5rem] text-white" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/junoon-foundation/?originalSubdomain=in"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SlSocialLinkedin className="hover:text-black text-[1.5rem] text-white" />
+          </a>
         </div>
         <div>
           <p className="text-white text-xs py-4 font-['Roboto',_san-serif] pl-20">

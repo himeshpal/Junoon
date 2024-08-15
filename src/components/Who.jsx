@@ -15,13 +15,13 @@ const Who = () => {
         <h1 className="py-3">WE</h1>
         <h1>ARE</h1>
       </div>
-      <div className="text-white text-lg text-justify space-y-4 pl-12 pr-40">
+      <div className="text-white font-sans text-[1.5rem] font-bold text-justify space-y-4 pl-12 pr-40">
         <p>
           Established in 2018, Junoon Foundation is a dedicated non-profit
           organisation committed to addressing the educational and essential
           support needs of 150 homeless children in the Borivali and Kandivali
           areas of Mumbai. Our mission is to provide these children with the
-          opportunities they need to build a brighter future
+          opportunities they need, to build a brighter future
         </p>
 
         {/* <Link to="/about" spy={true} smooth={true} duration={500}>

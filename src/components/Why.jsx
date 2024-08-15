@@ -16,7 +16,7 @@ const Why = () => {
         <div className=" h-80 w-full bg-neutral-900 rounded-xl shadow-lg shadow-black from-gray-900">
           <div className="relative h-full w-full rounded-xl    ">
             <div className="flex min-h-full flex-col items-centre justify-center">
-              <p className="text-white text-center">
+              <p className="text-white text-justify font-sans text-[1.3rem] font-semibold pt-5 px-20">
                 Many children, often seen begging or selling goods at railway
                 stations and traffic signals, face immense struggles and
                 challenges, missing out on their fundamental right to education.

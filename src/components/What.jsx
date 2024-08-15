@@ -5,14 +5,14 @@ const What = () => {
     <div className="py-5  bg-neutral-950 ">
       <div className="text-center text-5xl font-bold text-white pt-2 pb-14 ">
         <h1>
-          <span className="text-orange-400 font-bold text-5xl relative bottom-4 ">
+          <span className="text-orange-400 font-bold text-5xl relative  ">
             +
           </span>
           WHAT WE DO
         </h1>
         <div className="mx-auto mt-6 h-0.5 w-24 bg-orange-700"></div>
       </div>
-      <div className="text-center text-white px-40 text-lg  pb-5 ">
+      <div className="text-justify font-sans text-[1.32rem] font-semibold text-white px-40 pb-14 ">
         <p>
           we bring education to the children where they live through our
           makeshift classes held from Monday to Saturday. We prepare these
