@@ -6,7 +6,7 @@ const Donate = () => {
     <>
       <div className="relative w-full h-96">
         <img
-          src="Donate.jpg"
+          src="https://res.cloudinary.com/de5psimvg/image/upload/v1723727817/Donate_t15alw.jpg"
           alt="Slant Image"
           className="w-full h-full object-cover "
         />
